@@ -1,4 +1,4 @@
-# CMPE 493 Introduction to Information Retrieval Homework 1
+# Introduction to Information Retrieval - Homework 1
 
 In this project, [edit distance](https://en.wikipedia.org/wiki/Edit_distance) between two strings are calculated.
 
