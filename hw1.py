@@ -92,7 +92,7 @@ def edit_distance(str1, str2, editType):
  
     result.reverse()
     
-    return d[n][m]
+    return distanceTable[n][m]
 
 
 # take strings whose distance is to be calculated
@@ -108,7 +108,8 @@ result = []
 print("\nLevensthein edit distance:")
 print(edit_distance(str1, str2, "levensthein"))
 print("\nThe table:")
-print(distanceTable)
+for i in distanceTable:
+    print(i)
 print("\nSequence of operations:")
 print(result)
 
@@ -118,6 +119,7 @@ result = []
 print("\nDamerau Levensthein edit distance:")
 print(edit_distance(str1, str2, "damerau"))
 print("\nThe table:")
-print(distanceTable)
+for i in distanceTable:
+    print(i)
 print("\nSequence of operations:")
 print(result)
